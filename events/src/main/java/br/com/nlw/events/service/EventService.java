@@ -11,11 +11,12 @@ import java.util.List;
 @Service
 public class EventService {
 
-    private EventRepository eventRepository;
+    private final EventRepository eventRepository;
 
     public EventEntity addNewEvent(EventEntity event) {
-        // Gerando o pretty name
+        // Pretty name of event is created from title
         event.setPrettyName(event.getTitle().toLowerCase().replace(" ", "-"));
+
         return this.eventRepository.save(event);
     }
 

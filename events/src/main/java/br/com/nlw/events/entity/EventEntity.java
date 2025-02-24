@@ -7,6 +7,8 @@ import lombok.Setter;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "tbl_event")
 public class EventEntity {
@@ -16,11 +18,9 @@ public class EventEntity {
     @Column(name = "event_id")
     private Integer eventId;
 
-    @Getter
     @Column(name = "title", nullable = false)
     private String title;
 
-    @Setter
     @Column(name = "pretty_name", length = 50, nullable = false, unique = true)
     private String prettyName;
 

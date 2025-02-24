@@ -37,10 +37,28 @@ public class SubscriptionController {
         } catch (SubscriptionConflictException exception) {
             return ResponseEntity.status(409).body(new ErrorMessageDTO(exception.getMessage()));
         }
-        // } catch (UserIndicatorNotFoundException exception) {
-        //     return ResponseEntity.status(404).body(new ErrorMessageDTO(exception.getMessage()));
-        // }
+
         return ResponseEntity.badRequest().build();
+    }
+
+    @GetMapping("/{prettyName}/ranking")
+    public ResponseEntity<?> generateRakingByEvent(@PathVariable String prettyName) {
+        try {
+            return ResponseEntity.ok(this.service.getCompleteRanking(prettyName));
+        } catch (EventNotFoundException exception) {
+            return ResponseEntity.status(404).body(new ErrorMessageDTO(exception.getMessage()));
+        }
+    }
+
+    @GetMapping("/{prettyName}/ranking/{userId}")
+    public ResponseEntity<?> generateRankingByEventAndUser(@PathVariable String prettyName,
+                                                           @PathVariable Integer userId) {
+
+        try {
+            return ResponseEntity.ok(this.service.getRankingByUser(prettyName, userId));
+        } catch (Exception exception) {
+            return ResponseEntity.status(404).body(new ErrorMessageDTO(exception.getMessage()));
+        }
     }
 
 }

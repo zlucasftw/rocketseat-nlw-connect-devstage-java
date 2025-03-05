@@ -20,12 +20,17 @@ This project's interface follows Rocketseat's design system as showcased in the 
 
 ## 🚀 Tech Stack
 
-- ![Java](https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg) Java 21
-- ![Spring Boot](https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg) Spring Boot 3.4.3
-- ![Lombok](https://avatars.githubusercontent.com/u/45949248?s=128&v=128) Lombok
-- ![Maven](https://raw.githubusercontent.com/devicons/devicon/master/icons/maven/maven-original.svg) Maven
-- ![MySQL](https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg) MySQL 8.4
-- ![Docker](https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg) Docker
+<div align="left">
+	<img><img width="64" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/java.png" alt="Java" title="Java 21"/></img>
+	<img><img width="64" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/spring_boot.png" alt="Spring Boot" title="Spring Boot 3.4.3"/></img>
+	<img><img width="64" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/lombok.png" alt="Lombok" title="Lombok"/></img>
+	<img><img width="64" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/maven.png" alt="Maven" title="Maven"/></img>
+	<img><img width="64" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mysql.png" alt="MySQL" title="MySQL 8.4"/></img>
+	<img><img width="64" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png" alt="Docker" title="Docker"/></img>
+	<img><img width="64" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postman.png" alt="Postman" title="Postman"/></img>
+</div>
+
+![Tech Stack](https://skillicons.dev/icons?i=java,spring,maven,mysql,docker,idea&perline=3)
 
 ## 📋 Project Structure
 
@@ -72,7 +77,6 @@ events/
 │   └── subscribers_mock.json
 ├── .mvn/
 ├── docker-compose.yml
-├── Dockerfile
 ├── .gitignore
 ├── LICENSE
 ├── README.md

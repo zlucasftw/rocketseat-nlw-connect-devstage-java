@@ -30,8 +30,6 @@ This project's interface follows Rocketseat's design system as showcased in the 
 	<img><img width="64" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postman.png" alt="Postman" title="Postman"/></img>
 </div>
 
-![Tech Stack](https://skillicons.dev/icons?i=java,spring,maven,mysql,docker,idea&perline=3)
-
 ## 📋 Project Structure
 
 ```

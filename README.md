@@ -231,4 +231,4 @@ This project is licensed under the GNU Affero General Public License v3.0 (AGPL-
 
 ## 🙏 Acknowledgements
 
-- [Rocketseat](https://rocketseat.com.br) for the NLW Connect event and the amazing [UI/UX design](https://www.figma.com/community/file/1471119935944492720/nlw-connect-devstage) created by Rocketseat's design team and Millena Kupsinskü.
+- [Rocketseat](https://rocketseat.com.br) for the NLW Connect event and the amazing [UI/UX design](https://www.figma.com/community/file/1471119935944492720/nlw-connect-devstage) created by Rocketseat's designer Millena Kupsinskü.
